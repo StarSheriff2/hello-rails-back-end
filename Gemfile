@@ -29,8 +29,12 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+<<<<<<< HEAD
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails'
+=======
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+>>>>>>> parent of bb06f7f (Add spec gems and setup rails_helper)
 end
 
 group :development do
@@ -40,6 +44,7 @@ group :development do
   gem 'spring'
 end
 
+<<<<<<< HEAD
 group :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails', '~> 4.0'
@@ -47,5 +52,7 @@ group :test do
   gem 'shoulda-matchers', '~> 3.1'
 end
 
+=======
+>>>>>>> parent of bb06f7f (Add spec gems and setup rails_helper)
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
