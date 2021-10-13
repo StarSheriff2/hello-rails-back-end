@@ -20,7 +20,7 @@ This app returns a Json response on the following endpoint: <strong><i>api/v1/ra
 
 ### Live Demo
 
-Deployed to Heroku: [Live Demo](https://shrouded-tor-79384.herokuapp.com/#/)
+Deployed to Heroku: [Live Demo](https://hello-rails-backend.herokuapp.com/api/v1/random-greeting)
 
 ### Built With
 - Ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [arm64-darwin20]
