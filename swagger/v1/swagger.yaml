@@ -1,0 +1,54 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/random-greeting":
+    get:
+      summary: Returns any greeting message
+      tags:
+      - Greetings
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  message:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                required:
+                - id
+                - message
+                - created_at
+                - updated_at
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  message:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                required:
+                - id
+                - message
+                - created_at
+                - updated_at
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: https://hello-rails-backend.herokuapp.com
