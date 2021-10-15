@@ -37,7 +37,7 @@ Deployed to Heroku: [Live Demo](https://hello-rails-backend.herokuapp.com/api/v1
 
 ### About API
 
-The API documentation can be accessed through this link: [API Docs](http://localhost:3000/api-docs/index.html).
+The API documentation can be accessed through this link: [API Docs](https://hello-rails-backend.herokuapp.com/api-docs/index.html).
 
 ## Getting Started
 
