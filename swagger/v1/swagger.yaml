@@ -51,4 +51,4 @@ servers:
 - url: https://{defaultHost}
   variables:
     defaultHost:
-      default: www.example.com
+      default: https://hello-rails-backend.herokuapp.com
