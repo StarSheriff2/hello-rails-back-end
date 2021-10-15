@@ -18,6 +18,11 @@ The API has one endpoint, `api/v1/random-greeting`, that returns a random greeti
 ## About
 This app returns a Json response on the following endpoint: <strong><i>api/v1/random-greeting</i></strong>. The front end of the app is handled separately by another app. The API documentation of this project was generated with the <strong>'rswag'</strong> gem. I built request and integration tests.
 
+### Front-end React app
+The front-end associated with this app is [here](https://hello-react-frontend.netlify.app).
+
+The Github repo of the front-end is [here](https://github.com/StarSheriff2/hello-react-front-end/tree/frontend-app).
+
 ### Live Demo
 
 Deployed to Heroku: [Live Demo](https://hello-rails-backend.herokuapp.com/api/v1/random-greeting)
